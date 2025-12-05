@@ -13,7 +13,7 @@ export const categories = [
 // Products Data
 export const products = [
   {
-    id: 16,
+    id: 18,
     name: "Chunky Lace-up Shoe",
     description:
       "Hand-stitched leather lace-up shoes with a chunky sole for added comfort and style. ",
@@ -26,6 +26,42 @@ export const products = [
     images: [
       "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427835/0ea55ecb-61e6-41fc-aada-49c24ac89f5d.png",
       "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427815/db2efeaf-e306-4961-bf67-b9cd85784699.png",
+    ],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 17,
+    name: "Basket Leather Mole",
+    description:
+      "Hand-stitched leather lace-up shoes with a chunky sole for added comfort and style. ",
+    price: 46000,
+    originalPrice: null,
+    category: "men",
+    gender: "men",
+    image:
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764971714/5f071366-a155-4dbf-9b22-c7c825a0539a.png",
+    images: [
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764971714/5f071366-a155-4dbf-9b22-c7c825a0539a.png"
+    ],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 16,
+    name: "OML CrissXCross Slide",
+    description:
+      "Hand-stitched leather lace-up shoes with a chunky sole for added comfort and style. ",
+    price: 46000,
+    originalPrice: null,
+    category: "slides",
+    gender: "men",
+    image:
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764971366/03a556d6-7ddb-4968-bb11-20f8f5cd3792.png",
+    images: [
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764971366/03a556d6-7ddb-4968-bb11-20f8f5cd3792.png"
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
     inStock: true,
@@ -74,7 +110,7 @@ export const products = [
     name: "OML Hermes Slippers",
     description:
       "Well made leather slippers with a flat sole for added comfort and style. ",
-    price: 28000,
+    price: 27000,
     originalPrice: null,
     category: "slippers",
     gender: "men",
