@@ -5,20 +5,19 @@ export const categories = [
   { id: "all", name: "All Shoes", slug: "all" },
   { id: "men", name: "Men", slug: "men" },
   { id: "women", name: "Women", slug: "women" },
-  { id: "sneakers", name: "Sneakers", slug: "sneakers" },
   { id: "sandals", name: "Sandals", slug: "sandals" },
-  { id: "office", name: "Office Shoes", slug: "office-shoes" },
-  { id: "casual", name: "Casual", slug: "casual" },
+  { id: "slippers", name: "Slippers", slug: "slippers" },
+  { id: "slides", name: "Slides", slug: "slides" },
 ];
 
 // Products Data
 export const products = [
   {
-    id: 1,
-    name: "Classic Oxford Shoes",
+    id: 16,
+    name: "Chunky Lace-up Shoe",
     description:
-      "Hand-stitched leather oxford with comfortable sole. Perfect for office and formal occasions.",
-    price: 85000,
+      "Hand-stitched leather lace-up shoes with a chunky sole for added comfort and style. ",
+    price: 46000,
     originalPrice: null,
     category: "men",
     gender: "men",
@@ -29,33 +28,87 @@ export const products = [
       "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427815/db2efeaf-e306-4961-bf67-b9cd85784699.png",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
-    colors: ["Brown", "Black"],
+    inStock: true,
+    featured: true
+  },
+   {
+    id: 15,
+    name: "OML Coverhead Slide",
+    description:
+      "OML Coverhead Slide is a premium leather slide with a flat sole for added comfort and style.",
+    price: 26500,
+    originalPrice: null,
+    category: "slides",
+    gender: "men",
+    image:
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764969195/073e9115-2bb1-4fb6-b122-dfa02765bebd.png",
+    images: [
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764969195/073e9115-2bb1-4fb6-b122-dfa02765bebd.png",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764969378/5040beeb-a757-42ff-b1a9-c045c0b815d7.png",
+    ],
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
     inStock: true,
     featured: true
   },
   {
-    id: 2,
-    name: "Comfortable Sneakers",
+    id: 14,
+    name: "Skin Leather Sandal",
     description:
-      "Premium leather sneakers with cushioned soles for all-day comfort.",
-    price: 72000,
+      "OML Skin Leather Sandal is a premium leather sandal with a flat  sole for added comfort and style. ",
+    price: 28000,
     originalPrice: null,
-    category: "sneakers",
+    category: "sandals",
     gender: "men",
     image:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428248/ec876db4-359b-4716-89fc-dc80410edb8d.png",
     images: [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428248/ec876db4-359b-4716-89fc-dc80410edb8d.png",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428248/ec876db4-359b-4716-89fc-dc80410edb8d.png",
     ],
-    sizes: ["40", "41", "42", "43", "44", "45", "46"],
-    colors: ["White", "Black", "Gray"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
     inStock: true,
-    featured: true,
-    rating: 4.9,
-    reviews: 203,
+    featured: true
   },
   {
-    id: 3,
+    id: 13,
+    name: "OML Hermes Slippers",
+    description:
+      "Well made leather slippers with a flat sole for added comfort and style. ",
+    price: 28000,
+    originalPrice: null,
+    category: "slippers",
+    gender: "men",
+    image:
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428156/8cf43c71-122f-499c-908e-5c6cc20ca61e.png",
+    images: [
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428248/ec876db4-359b-4716-89fc-dc80410edb8d.png",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428248/ec876db4-359b-4716-89fc-dc80410edb8d.png",
+    ],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 12,
+    name: "OML X Slide",
+    description:
+      "Premium leather sneakers with cushioned soles for all-day comfort.",
+    price: 20000,
+    originalPrice: null,
+    category: "slides",
+    gender: "men",
+    image:
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428376/adcf9919-23a4-4d0f-b04a-32bd8c94e417.png",
+    images: [
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428393/502109ab-ea3d-4b29-a4be-66cf8f2beef7.png",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764428393/502109ab-ea3d-4b29-a4be-66cf8f2beef7.png",
+    ],
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    inStock: true,
+    featured: true
+  },
+  {
+    id: 11,
     name: "Elegant Heels",
     description:
       "Elegant heels designed for comfort and style. Perfect for special occasions.",
@@ -69,12 +122,11 @@ export const products = [
       "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
-    colors: ["Nude", "Black", "Red"],
     inStock: true,
     featured: true
   },
   {
-    id: 4,
+    id: 10,
     name: "Comfort Loafers",
     description:
       "Soft leather loafers with memory foam insoles for ultimate comfort.",
@@ -88,12 +140,11 @@ export const products = [
       "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
-    colors: ["Brown", "Black", "Tan"],
     inStock: true,
     featured: true
   },
   {
-    id: 5,
+    id: 9,
     name: "Beach Sandals",
     description:
       "Handmade leather sandals with ergonomic design for summer comfort.",
@@ -107,26 +158,24 @@ export const products = [
       "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800&q=80",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
-    colors: ["Brown", "Black", "Tan"],
     inStock: true,
     featured: true
   },
   {
-    id: 6,
-    name: "Running Shoes",
+    id: 8,
+    name: "Suede CrissXCross Slide",
     description:
       "Performance running shoes with leather uppers and advanced cushioning.",
     price: 78000,
     originalPrice: null,
-    category: "sneakers",
+    category: "slides",
     gender: "men",
     image:
-      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800&q=80",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764968873/ab7bb236-93cd-4780-9224-54bb5f69da60.png",
     images: [
-      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800&q=80",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764968873/ab7bb236-93cd-4780-9224-54bb5f69da60.png",
     ],
     sizes: ["40", "41", "42", "43", "44", "45", "46"],
-    colors: ["Red", "Blue", "Black"],
     inStock: true,
     featured: true
   },
@@ -144,12 +193,11 @@ export const products = [
       "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800&q=80",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
-    colors: ["Brown", "Black"],
     inStock: true,
     featured: true
   },
   {
-    id: 8,
+    id: 6,
     name: "Ballet Flats",
     description:
       "Comfortable ballet flats with soft leather that complements any outfit.",
@@ -163,12 +211,11 @@ export const products = [
       "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=800&q=80",
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
-    colors: ["Pink", "Black", "Beige"],
     inStock: true,
     featured: true
   },
   {
-    id: 9,
+    id: 5,
     name: "Women's Sneakers",
     description:
       "Stylish sneakers for women with premium cushioning and support.",
@@ -182,12 +229,11 @@ export const products = [
       "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80",
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
-    colors: ["White", "Pink", "Gray"],
     inStock: true,
     featured: false
   },
   {
-    id: 10,
+    id: 4,
     name: "Office Pumps",
     description:
       "Professional pumps perfect for the workplace with all-day comfort.",
@@ -201,12 +247,11 @@ export const products = [
       "https://images.unsplash.com/photo-1596702062351-8c2c14d1fdd0?w=800&q=80",
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
-    colors: ["Black", "Navy", "Burgundy"],
     inStock: true,
     featured: false
   },
   {
-    id: 11,
+    id: 3,
     name: "Strappy Sandals",
     description:
       "Elegant strappy sandals for warm weather and special occasions.",
@@ -220,12 +265,11 @@ export const products = [
       "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=800&q=80",
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
-    colors: ["Gold", "Silver", "Black"],
     inStock: true,
     featured: false
   },
   {
-    id: 12,
+    id: 2,
     name: "Canvas Sneakers",
     description:
       "Lightweight canvas sneakers perfect for everyday casual wear.",
@@ -239,16 +283,15 @@ export const products = [
       "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&q=80",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
-    colors: ["White", "Navy", "Gray"],
     inStock: true,
     featured: false
   },
    {
-    id: 13,
-    name: "Beach Sandals",
+    id: 1,
+    name: "Double Strap Leather Sandal",
     description:
       "Handmade leather sandals with ergonomic design for summer comfort.",
-    price: 35000,
+    price: 24500,
     originalPrice: null,
     category: "sandals",
     gender: "men",
@@ -258,7 +301,6 @@ export const products = [
       "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427878/77b3bece-0202-4926-a36f-1081d3390a83.png",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
-    colors: ["Brown", "Black", "Tan"],
     inStock: true,
     featured: true
   },

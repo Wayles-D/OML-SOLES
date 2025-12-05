@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getProductById, formatPrice } from '../data/mockData';
-import { HiHeart, HiOutlineHeart, HiMinus, HiPlus, HiShoppingBag, HiArrowLeft, HiTruck, HiShieldCheck } from 'react-icons/hi2';
+import { HiMinus, HiPlus, HiShoppingBag, HiArrowLeft, HiTruck, HiShieldCheck } from 'react-icons/hi2';
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -182,25 +182,6 @@ const ProductDetails = () => {
                 ))}
               </div>
             </div>
-
-            {/* Colors */}
-            {product.colors && product.colors.length > 0 && (
-              <div className="space-y-3">
-                <h3 className="text-lg font-bold text-gray-900">
-                  Available Colors
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {product.colors.map((color) => (
-                    <span
-                      key={color}
-                      className="px-4 py-2 bg-white border-2 border-gray-200 text-gray-800 rounded-lg text-sm font-semibold hover:border-[#6F4D38] transition-all shadow-sm"
-                    >
-                      {color}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
 
             {/* Quantity Selector */}
             <div className="space-y-3">
