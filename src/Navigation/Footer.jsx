@@ -160,7 +160,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 text-sm text-gray-300 inter-regular">
               <span>Designed and Developed by</span>
               <a
-                href="https://wayles.dev"
+                href="https://wayles-portfolio.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#EAD1A9] hover:text-white font-semibold transition-colors inter-semibold"

@@ -25,15 +25,13 @@ export const products = [
     image:
       "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427835/0ea55ecb-61e6-41fc-aada-49c24ac89f5d.png",
     images: [
-      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427815/db2efeaf-e306-4961-bf67-b9cd85784699.png",
+      "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427835/0ea55ecb-61e6-41fc-aada-49c24ac89f5d.png",
       "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764427815/db2efeaf-e306-4961-bf67-b9cd85784699.png",
     ],
     sizes: ["40", "41", "42", "43", "44", "45"],
     colors: ["Brown", "Black"],
     inStock: true,
-    featured: true,
-    rating: 4.8,
-    reviews: 124,
+    featured: true
   },
   {
     id: 2,
@@ -73,9 +71,7 @@ export const products = [
     sizes: ["36", "37", "38", "39", "40", "41"],
     colors: ["Nude", "Black", "Red"],
     inStock: true,
-    featured: true,
-    rating: 4.7,
-    reviews: 156,
+    featured: true
   },
   {
     id: 4,
@@ -94,9 +90,7 @@ export const products = [
     sizes: ["40", "41", "42", "43", "44", "45"],
     colors: ["Brown", "Black", "Tan"],
     inStock: true,
-    featured: true,
-    rating: 4.6,
-    reviews: 98,
+    featured: true
   },
   {
     id: 5,
@@ -115,9 +109,7 @@ export const products = [
     sizes: ["40", "41", "42", "43", "44", "45"],
     colors: ["Brown", "Black", "Tan"],
     inStock: true,
-    featured: true,
-    rating: 4.5,
-    reviews: 87,
+    featured: true
   },
   {
     id: 6,
@@ -136,9 +128,7 @@ export const products = [
     sizes: ["40", "41", "42", "43", "44", "45", "46"],
     colors: ["Red", "Blue", "Black"],
     inStock: true,
-    featured: true,
-    rating: 4.8,
-    reviews: 178,
+    featured: true
   },
   {
     id: 7,
@@ -156,9 +146,7 @@ export const products = [
     sizes: ["40", "41", "42", "43", "44", "45"],
     colors: ["Brown", "Black"],
     inStock: true,
-    featured: true,
-    rating: 4.9,
-    reviews: 145,
+    featured: true
   },
   {
     id: 8,
@@ -177,9 +165,7 @@ export const products = [
     sizes: ["36", "37", "38", "39", "40", "41"],
     colors: ["Pink", "Black", "Beige"],
     inStock: true,
-    featured: true,
-    rating: 4.6,
-    reviews: 112,
+    featured: true
   },
   {
     id: 9,
@@ -198,9 +184,7 @@ export const products = [
     sizes: ["36", "37", "38", "39", "40", "41"],
     colors: ["White", "Pink", "Gray"],
     inStock: true,
-    featured: false,
-    rating: 4.7,
-    reviews: 134,
+    featured: false
   },
   {
     id: 10,
@@ -219,9 +203,7 @@ export const products = [
     sizes: ["36", "37", "38", "39", "40", "41"],
     colors: ["Black", "Navy", "Burgundy"],
     inStock: true,
-    featured: false,
-    rating: 4.8,
-    reviews: 167,
+    featured: false
   },
   {
     id: 11,
@@ -240,9 +222,7 @@ export const products = [
     sizes: ["36", "37", "38", "39", "40", "41"],
     colors: ["Gold", "Silver", "Black"],
     inStock: true,
-    featured: false,
-    rating: 4.5,
-    reviews: 89,
+    featured: false
   },
   {
     id: 12,
@@ -261,9 +241,7 @@ export const products = [
     sizes: ["40", "41", "42", "43", "44", "45"],
     colors: ["White", "Navy", "Gray"],
     inStock: true,
-    featured: false,
-    rating: 4.4,
-    reviews: 76,
+    featured: false
   },
    {
     id: 13,
@@ -282,9 +260,7 @@ export const products = [
     sizes: ["40", "41", "42", "43", "44", "45"],
     colors: ["Brown", "Black", "Tan"],
     inStock: true,
-    featured: true,
-    rating: 4.5,
-    reviews: 87,
+    featured: true
   },
 ];
 

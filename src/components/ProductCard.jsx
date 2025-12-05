@@ -4,7 +4,6 @@ import { formatPrice } from '../data/mockData';
 import { HiHeart, HiOutlineHeart } from 'react-icons/hi2';
 
 const ProductCard = ({ product }) => {
-  const [isFavorite, setIsFavorite] = useState(false);
 
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 group">
@@ -17,19 +16,6 @@ const ProductCard = ({ product }) => {
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </Link>
-        
-        {/* Wishlist Button */}
-        <button
-          onClick={() => setIsFavorite(!isFavorite)}
-          className="absolute top-3 right-3 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-100 transition-all z-10"
-          aria-label="Add to wishlist"
-        >
-          {isFavorite ? (
-            <HiHeart className="w-6 h-6 text-red-500" />
-          ) : (
-            <HiOutlineHeart className="w-6 h-6 text-gray-600" />
-          )}
-        </button>
 
         {/* Category Badge */}
         <div className="absolute bottom-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
@@ -56,14 +42,6 @@ const ProductCard = ({ product }) => {
           <span className="text-xl font-bold text-[#6F4D38] inter-bold">
             {formatPrice(product.price)}
           </span>
-          
-          {/* Rating */}
-          <div className="flex items-center gap-1">
-            <span className="text-yellow-400">★</span>
-            <span className="text-sm font-semibold text-gray-700 inter-semibold">
-              {product.rating}
-            </span>
-          </div>
         </div>
       </div>
     </div>
