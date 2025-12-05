@@ -30,7 +30,7 @@ export default function Navbar() {
               />
               <div className="gap-y-0">
               <h1 className="relative text-2xl poppins-black text-[#6F4D38] hidden lg:block playfair-black">OML SOLES</h1>
-              <p className="relative text-[8px] hidden lg:block text-right text-white">...the soft feel your feet needs</p>
+              <p className="relative text-[8px] hidden lg:block text-right text-[#6F4D38]">...the soft feel your feet needs</p>
               </div>
             </div>
           </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-black p-2"
             >
-              {isMenuOpen ? <GrClose size={24} /> : <CgMenuRight size={24} />}
+              {isMenuOpen ? <GrClose size={24} className="text-[#6F4D38]"/> : <CgMenuRight size={24} className="text-[#6F4D38]"/>}
             </button>
           </div>
         </div>
@@ -89,4 +89,3 @@ export default function Navbar() {
     </header>
   );
 }
-
